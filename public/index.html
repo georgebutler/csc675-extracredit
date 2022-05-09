@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head lang='en'>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSC675 Extra Credit</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/hybrid.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+	<style>
+		pre {
+			padding: 0;
+			border-radius: 2px
+		}
+
+		;
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<section class="section">
+			<h1 class="title">CSC675 Extra Credit</h1>
+			<h3 class="subtitle">by George Butler & Robert Sato</h3>
+			<p>This database demonstration uses <em>Google Firestore</em> for its data storage.</p>
+			<a target="_blank"
+				href="https://console.firebase.google.com/u/0/project/csc675-5cec2/firestore/data/~2F">View Project</a>
+		</section>
+
+		<section class="section">
+			<h5 class="title is-5">Functions</h5>
+			<div class="field">
+				<p>For demonstration purposes all functions will only affect <em>user1</em>.</p>
+			</div>
+			<div class="field">
+				<div class="control">
+					<input id="post-new-text" type="text" class="input" placeholder="Write your post here...">
+				</div>
+				<div class="control mt-1">
+					<button id="post-new-button" class="button is-primary is-fullwidth">Add Post</button>
+				</div>
+			</div>
+			<div class="field">
+				<div class="control">
+					<input id="post-search-text" type="text" class="input" placeholder="Post ID...">
+				</div>
+				<div class="control mt-1">
+					<button id="post-search-button" class="button is-info is-outline is-fullwidth">Search</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<h5 class="title is-5">Data</h5>
+			<div id="data-list">
+				</pre>
+		</section>
+
+		<section class="section">
+			<h5 class="title is-5">Improvements</h5>
+			<p>There are some improvements and / or changes we would make in the future, now that we have more experience.</p>
+			<ul>
+				<li>Imporvement</li>
+				<li>Imporvement</li>
+			</ul>
+		</section>
+	</div>
+	<script src="bundle.js"></script>
+</body>
+
+</html>
