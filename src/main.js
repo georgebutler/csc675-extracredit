@@ -82,7 +82,6 @@ async function findPost() {
 
         if (postSnapshot.exists()) {
             alert(postSnapshot.data().content);
-            // console.log(postSnapshot.data());
         } else {
             alert("Can't find a post with that ID!");
         }
